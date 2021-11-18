@@ -12,7 +12,7 @@ const AllIntegrantesCards = () => {
                 <IntegrantesCard imgSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637092573/Yuriana.jpg' name='Yuriana Sánchez' cartera='Secretaría de Promoción y Actualización' suplente='Luisa M. Villalobos' imgSuplenteSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637187560/LuisaMaria.jpg' />
                 <IntegrantesCard imgSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637095847/Yuliana.jpg' name='Claudia Y. Millán' cartera='Secretaría de Finanzas' suplente='M. Rosario Escobar' imgSuplenteSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637187481/Rosario.jpg' />
                 <IntegrantesCard name='Itzel D. Anrubio' imgSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637182445/Dariela.jpg'  cartera='Secretaría de Créditos y Vivienda' suplente='J. César de la Cruz' imgSuplenteSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637187289/JulioC%C3%A9sar.jpg' />
-                <IntegrantesCard imgSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637092573/Benjamin.jpg' name='Benjamín García' cartera='Stría. de Previsión y Asistencia Social' suplente='Jesús Quinto' imgSuplenteSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637187412/Quinto.jpg' />
+                <IntegrantesCard imgSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637092573/Benjamin.jpg' name='Benjamín García' cartera='Sría. de Previsión y Asistencia Social' suplente='Jesús Quinto' imgSuplenteSource='https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637187412/Quinto.jpg' />
             </div>
         </div>
     )
