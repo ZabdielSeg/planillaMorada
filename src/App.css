@@ -38,12 +38,9 @@ h4{
   width: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .header-list {
-  /* background-color: brown; */
   display: flex;
   width: 100%;
   justify-content: space-evenly;
@@ -71,7 +68,6 @@ h4{
   background-color: rgba(255, 255, 255, 0.623);
   text-align: center;
   width: 90%;
-  /* height: 25%; */
   margin: 30px auto 0;
   box-sizing: border-box;
 }
@@ -82,7 +78,6 @@ h4{
 }
 
 #Integrantes {
-  /* background-color: burlywood; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,11 +90,9 @@ h4{
   color: black;
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
-
 }
 
 .AllIntegrantesCardDiv {
-  /* background-color: coral; */
   width: 90%;
   display: flex;
   flex-wrap: wrap;
@@ -109,7 +102,6 @@ h4{
 .card {
   width: 43vw;
   height: 40vh;
-  /* background-color: blue; */
   border-radius: 15px;
   margin-bottom: 20px;
   box-sizing: border-box;
@@ -121,7 +113,6 @@ h4{
 
 .card > img {
   height: 100%;
-  /* width: 50%; */
   border-radius: 20px;
 }
 
@@ -133,7 +124,6 @@ h4{
   flex-direction: column;
   height: 50%;
   width: 100%;
-  /* background-color: cadetblue; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -143,7 +133,6 @@ h4{
 }
 
 .card-suplente {
-  /* background-color: chartreuse; */
   height: 50%;
   display: flex;
   align-items: center;
@@ -153,14 +142,12 @@ h4{
 }
 
 .suplente-image {
-  /* width: 30%; */
-  height: 10vh;
+  height: 15vh;
   border-radius: 30px;
 }
 
 #Propuestas {
   width: 90%;
-  /* background-color: burlywood; */
   margin: 0 auto;
   padding-bottom: 60px;
   padding-top: 30px;
@@ -180,7 +167,6 @@ h4{
 
 @media (max-width: 1000px) {
   .AllIntegrantesCardDiv {
-    /* background-color: coral; */
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -200,15 +186,15 @@ h4{
   }
 
   h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
   h3{
-    font-size: .7rem;
+    font-size: .9rem;
   }
 
   .card {
-    height: 30vh;
+    height: 50vh;
   }
 
   .card > img {
