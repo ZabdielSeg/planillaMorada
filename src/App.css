@@ -193,9 +193,9 @@ h4{
     font-size: .9rem;
   }
 
-  /* .card {
-    height: 50vh;
-  } */
+  .card {
+    height: 40vh;
+  }
 
   .card > img {
     height: 100%;
