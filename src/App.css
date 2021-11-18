@@ -1,38 +1,212 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Amatic+SC:wght@700&family=Bad+Script&family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@500&family=Playball&family=Special+Elite&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Cinzel Decorative', cursive;
+  color: blueviolet;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 300;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.carteras, .propuestas-title  {
+  font-size: 2.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-size: 1.2rem;
+  font-family: 'Special Elite', cursive;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h4{
+  font-size: 1rem;
+  font-family: 'Cinzel', serif;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.header-list {
+  /* background-color: brown; */
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  height: 7vh;
+  align-items: center;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.header-list a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+#planilla {
+  width: 95%;
+  background-image: url('https://res.cloudinary.com/ds3hh2gv2/image/upload/v1637094306/planilllaMorada.jpg');
+  background-position: center;
+  height: 600px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.623);
+  text-align: center;
+  width: 90%;
+  /* height: 25%; */
+  margin: 30px auto 0;
+  box-sizing: border-box;
+}
+
+#planilla p {
+  font-family: 'Allura', cursive;
+  font-size: 2rem;
+}
+
+#Integrantes {
+  /* background-color: burlywood; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
+  margin-top: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.link {
+  text-decoration: none;
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.AllIntegrantesCardDiv {
+  /* background-color: coral; */
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 43vw;
+  height: 40vh;
+  /* background-color: blue; */
+  border-radius: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  box-shadow: 10px 10px 10px rgba(203, 130, 209, 0.753), -10px -10px 10px rgba(238, 160, 247, 0.747);
+}
+
+.card > img {
+  height: 100%;
+  /* width: 50%; */
+  border-radius: 20px;
+}
+
+.box-1 {
+  width: 60%;
+}
+.card-info {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 100%;
+  /* background-color: cadetblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.card-suplente {
+  /* background-color: chartreuse; */
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.suplente-image {
+  width: 30%;
+  border-radius: 30px;
+}
+
+#Propuestas {
+  width: 90%;
+  /* background-color: burlywood; */
+  margin: 0 auto;
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+
+#Propuestas > ul {
+  list-style: none;
+}
+
+#Propuestas li {
+  padding: 30px;
+  margin: 10px 0 10px 0;
+  background-color: rgba(150, 237, 100, 0.534);
+  border: 1px solid rgb(116, 182, 77);
+  border-radius: 20px;
+}
+
+@media (max-width: 1000px) {
+  .AllIntegrantesCardDiv {
+    /* background-color: coral; */
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .card {
+    width: 100%;
+    height: 35vh;
+  }
+}
+
+@media (max-width: 740px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    height: 30vh;
+  }
+
+  .card > img {
+    height: 100%;
+    width: 40%;
+    border-radius: 20px;
+  }
+
+  #planilla p {
+    font-size: 1.5rem;
   }
 }
